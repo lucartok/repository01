@@ -1,0 +1,64 @@
+63
+SystemExit
+KeyboardInterrupt
+GeneratorExit
+Exception
+StopIteration : Exception
+StopAsyncIteration : Exception
+ArithmeticError : Exception
+FloatingPointError : ArithmeticError
+OverflowError : ArithmeticError
+ZeroDivisionError : ArithmeticError
+AssertionError : Exception
+AttributeError : Exception
+BufferError : Exception
+EOFError : Exception
+ImportError : Exception
+ModuleNotFoundError : ImportError
+LookupError : Exception
+IndexError : LookupError
+KeyError : LookupError
+MemoryError : Exception
+NameError : Exception
+UnboundLocalError : NameError
+OSError : Exception
+BlockingIOError : OSError
+ChildProcessError : OSError
+ConnectionError : OSError
+BrokenPipeError : ConnectionError
+ConnectionAbortedError : ConnectionError
+ConnectionRefusedError : ConnectionError
+ConnectionResetError : ConnectionError
+FileExistsError : OSError
+FileNotFoundError : OSError
+InterruptedError : OSError
+IsADirectoryError : OSError
+NotADirectoryError : OSError
+PermissionError : OSError
+ProcessLookupError : OSError
+TimeoutError : OSError
+ReferenceError : Exception
+RuntimeError : Exception
+NotImplementedError : RuntimeError
+RecursionError : RuntimeError
+SyntaxError : Exception
+IndentationError : SyntaxError
+TabError : IndentationError
+SystemError : Exception
+TypeError : Exception
+ValueError : Exception
+UnicodeError : ValueError
+UnicodeDecodeError : UnicodeError
+UnicodeEncodeError : UnicodeError
+UnicodeTranslateError : UnicodeError
+Warning : Exception
+DeprecationWarning : Warning
+PendingDeprecationWarning : Warning
+RuntimeWarning : Warning
+SyntaxWarning : Warning
+UserWarning : Warning
+FutureWarning : Warning
+ImportWarning : Warning
+UnicodeWarning : Warning
+BytesWarning : Warning
+ResourceWarning : Warning

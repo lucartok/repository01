@@ -7,10 +7,18 @@
 
 
 class Storage:
-    stored_items = {}
+    stored_items = []
 
-    def delivery_to(self):
-        pass
+    def delivery_to(self, apl):
+
+        new_item = {'type_of_appliance': apl.type_of_appliance,
+                    'department': apl.department,
+                    'condition': apl.condition,
+                    'model': apl.model,
+                    'serial_number': apl.serial_number,
+                    'color': apl.color
+                    }
+        self.stored_items.append(new_item)
 
     def delivery_from(self):
         pass
@@ -43,3 +51,9 @@ class Scanner(Appliance):
 
 printer1 = Printer('Canon A1232', 'A343Ke3234', 'white', 'printer', 'accounting', 'new')
 scanner1 = Scanner('Xerox P12', 'n23ndkdasdf', 'black', 'scanner', 'writers', 'used')
+
+sklad1 = Storage
+sklad1.delivery_to(self=sklad1, apl=printer1)
+sklad1.delivery_to(self=sklad1, apl=scanner1)
+
+print(sklad1.stored_items)
