@@ -1,0 +1,7 @@
+FROM python:3.9
+RUN wget "https://github.com/adterskov/geekbrains-conteinerization/raw/master/homework/2.docker/python/app.py" -O app.py
+RUN wget "https://github.com/adterskov/geekbrains-conteinerization/raw/master/homework/2.docker/python/requirements.txt" -O requirements.txt
+
+RUN pip install -r requirements.txt
+EXPOSE 8080
+CMD python /app.py
